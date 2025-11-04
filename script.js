@@ -1049,7 +1049,7 @@ const container = document.querySelector("#body"),
         particlesJS("particles-js", {
           particles: {
             number: { value: 100, density: { enable: !0, value_area: 800 } },
-            color: { value: "#f27b2a" },
+            color: { value: "#ffffff" },
             shape: { type: "polygon", polygon: { nb_sides: 6 } },
             opacity: { value: 0.75 },
             size: {
@@ -1090,7 +1090,7 @@ const container = document.querySelector("#body"),
           retina_detect: !0
         }))
       : ((container.className = "light"),
-        (part.style.backgroundColor = "#F5B59D"),
+        (part.style.backgroundColor = "#D84120"),
         card.style.setProperty(
           "--anim",
           "cardLightGradient .3s ease-in-out forwards"
@@ -1100,7 +1100,7 @@ const container = document.querySelector("#body"),
         particlesJS("particles-js", {
           particles: {
             number: { value: 100, density: { enable: !0, value_area: 800 } },
-            color: { value: "#f06505" },
+            color: { value: "#ffffff" },
             shape: { type: "circle" },
             opacity: { value: 0.75 },
             size: {
@@ -1110,7 +1110,7 @@ const container = document.querySelector("#body"),
             line_linked: {
               enable: !0,
               distance: 125,
-              color: "#f06505",
+              color: "#ffffff",
               opacity: 2,
               width: 0.5
             },
@@ -1143,7 +1143,7 @@ const container = document.querySelector("#body"),
   particlesJS("particles-js", {
     particles: {
       number: { value: 80, density: { enable: !0, value_area: 800 } },
-      color: { value: "#b392ac" },
+      color: { value: "#ffffff" },
       shape: { type: "polygon", polygon: { nb_sides: 6 } },
       opacity: { value: 0.75 },
       size: { value: 2, anim: { enable: !0, speed: 5, size_min: 1, sync: !0 } },
